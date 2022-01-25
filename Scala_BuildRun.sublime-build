@@ -1,0 +1,6 @@
+{
+    "cmd": ["scalac", "${file}", "&&", "start", "cmd", "/k", "${file_base_name}"],
+    "shell":true,
+    "working_dir":"$file_path",
+    "selector":"source.scala"
+}
